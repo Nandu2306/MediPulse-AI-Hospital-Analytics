@@ -1,0 +1,17 @@
+# Database Design
+
+## Tables
+
+1. Patients
+2. Doctors
+3. Appointments
+4. Treatments
+5. Billing
+
+## Relationships
+
+- One patient can have many appointments.
+- One doctor can attend many appointments.
+- One appointment can have one treatment.
+- One treatment can have one billing record.
+- One patient can have multiple billing records.
