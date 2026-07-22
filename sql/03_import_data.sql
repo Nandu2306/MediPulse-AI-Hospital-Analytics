@@ -1,0 +1,10 @@
+USE medipulse_ai;
+SHOW TABLES;
+SELECT COUNT(*) FROM patients;
+SELECT DATABASE();
+SHOW DATABASES;
+USE medipulse_ai;
+SELECT DATABASE();
+SHOW TABLES;
+SELECT COUNT(*) FROM appointments;
+SELECT COUNT(*) FROM patients;
